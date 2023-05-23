@@ -15,8 +15,8 @@ class AttendanceRecordApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      //home: AttendanceRecordScreen(),
       home: OnboardingScreen(),
+      // First screen will display when the app start
     );
   }
 }
