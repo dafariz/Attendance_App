@@ -88,8 +88,7 @@ class _AttendanceRecordScreenState extends State<AttendanceRecordScreen> {
     if (contactInfo.isNotEmpty) {
       Share.share(contactInfo);
     } else {
-      // Handle the case when contactInfo is empty
-      // For example, display an error message or provide alternative action
+
     }
   }
 
