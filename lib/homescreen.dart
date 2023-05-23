@@ -7,14 +7,14 @@ import 'A/AttendanceRecord.dart';
 import 'detailsScreen.dart';
 import 'package:share/share.dart';
 
-class AttendanceRecordScreen extends StatefulWidget {
-  const AttendanceRecordScreen({super.key});
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
 
   @override
-  _AttendanceRecordScreenState createState() => _AttendanceRecordScreenState();
+  _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _AttendanceRecordScreenState extends State<AttendanceRecordScreen> {
+class _HomeScreenState extends State<HomeScreen> {
   List<AttendanceRecord> records = [];
   List<AttendanceRecord> listRecords = [];
 

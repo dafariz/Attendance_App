@@ -91,7 +91,7 @@ class OnboardingScreen extends StatelessWidget {
                   // Navigate to the main page when the button is clicked
                   Navigator.pushReplacement(
                     context,
-                    MaterialPageRoute(builder: (context) => const AttendanceRecordScreen()),
+                    MaterialPageRoute(builder: (context) => const HomeScreen()),
                   );
                 },
                 child: const Text('Get Started'),
