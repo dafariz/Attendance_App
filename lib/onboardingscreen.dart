@@ -6,7 +6,7 @@ class OnboardingScreen extends StatelessWidget {
   final List<Widget> slides = [
         
     const SlideWidget(
-      title: 'Welcome to Attendance Record App', textAlign: TextAlign.center,
+      title: 'Welcome to Attendance App', textAlign: TextAlign.center,
       description: 'Lets Explore Our Features!!',
       imagePath: 'assets/image/Welcome.png',
     ),
